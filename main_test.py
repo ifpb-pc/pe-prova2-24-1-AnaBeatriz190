@@ -32,7 +32,7 @@ def test_q2(entrada1, entrada2, esperado):
 
 
 def test_q3():
-    esperado = 400
+    esperado = 1213
     assert esperado == q3()
 
 
@@ -43,7 +43,7 @@ def test_q3():
     ([2, 4, 6, 8, 10, 12, 1, 3, 5, 7, 9, 11, 0], [12, 4, 6, 8, 10], [11, 3, 5, 7, 9])
 ])
 def test_q4(entrada, esperado_pares, esperado_impares):
-    resultado_pares, resultado_impares = q3(entrada)
+    resultado_pares, resultado_impares = q4(entrada)
     assert resultado_pares == esperado_pares
     assert resultado_impares == esperado_impares
 
